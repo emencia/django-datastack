@@ -1,0 +1,47 @@
+__pycache__
+*.pyc
+/.cache
+/*.json
+*.xml
+.coverage
+db.sqlite3
+
+.ipynb_checkpoints
+*.ipynb
+.vscode
+/dataspace
+/notebooks/prototypes/
+.ruff_cache
+.pycheck.db
+
+# Various directory index, temp file and editor's config
+*.DS_Store
+*.idea
+.*.sw?
+
+# virtualenv
+/parts/
+/var/
+/.envs/
+.venv
+/venv/
+/bin/
+/bin
+/lib
+/share
+/etc
+
+# Ruby & Compass
+.sass-cache
+/node_modules/
+pyvenv.cfg
+
+# project db
+/dumps
+
+# Third party config files
+localsettings.py
+localsettings-pytest.py
+
+# Ignore compiled translation catalogs
+*.mo

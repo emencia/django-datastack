@@ -1,0 +1,10 @@
+Django>=4.0
+Ipython==8.11.0
+Notebook==6.5.3
+Jupytext==1.14.5 
+django_extensions==3.2.1
+django-shell-plus==1.1.7
+ipywidgets==8.0.4
+jupyterlab==3.6.2
+dataspace==0.0.13
+vl-convert-python==0.8.1
