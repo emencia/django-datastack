@@ -19,13 +19,7 @@ Clone the repository and install:
 make install
 ```
 
-This will create a virtualenv locally
-
-Create the local database:
-
-```
-make migrate
-```
+This will create a virtualenv locally, create an Sqlite db and run the migrations
 
 ## Notebooks
 
