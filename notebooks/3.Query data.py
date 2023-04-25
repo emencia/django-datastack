@@ -44,7 +44,7 @@ ds.show()
 
 # %%
 ds.axis("date:T", "price:Q")
-ds.area_()
+ds.line_()
 
 # %% [markdown]
 # Let's say we want to see only the 50% highest offers on the sell side. Let's get the mean and filter the data
@@ -60,6 +60,6 @@ ds.show()
 # %%
 ds.axis("date:T", "price:Q")
 ds.to_str("date")
-ds.area_()
+ds.line_()
 
 # %%
