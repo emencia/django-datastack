@@ -79,7 +79,7 @@ install-backend:
 	@echo ""
 	@printf "$(FORMATBLUE)$(FORMATBOLD)---> Installing backend requirements <---$(FORMATRESET)\n"
 	@echo ""
-	$(PIP) install -r requirements/dev.txt
+	$(PIP) install -r requirements.txt
 .PHONY: install-backend
 
 install: venv install-backend migrate
